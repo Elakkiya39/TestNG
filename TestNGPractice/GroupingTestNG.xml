@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+	<test name="Test Case">
+		<groups>
+			<run>
+				<include name="apple"></include>
+				<include name="banana"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.GroupingPractice"></class>
+		</classes>
+	</test>
+</suite>
