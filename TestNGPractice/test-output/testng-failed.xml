@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.AssertionPractice">
+      <class name="testNG.AlwaysRunPractice">
         <methods>
-          <include name="checkEqual"/>
+          <include name="highschool"/>
         </methods>
-      </class> <!-- testNG.AssertionPractice -->
+      </class> <!-- testNG.AlwaysRunPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
